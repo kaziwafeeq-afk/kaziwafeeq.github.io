@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Wafeeq Kazi | Robotics & Control Systems Engineer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#0b0f19',
+                        cardBg: '#111827',
+                        cardBorder: '#1f293d',
+                        accent: '#10b981',
+                        accentHover: '#059669',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0b0f19; color: #f3f4f6; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-100 antialiased selection:bg-accent selection:text-black">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-darkBg/90 backdrop-blur-md border-b border-gray-800 shadow-lg shadow-emerald-950/10">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#home" class="text-base sm:text-lg font-extrabold tracking-wider text-white flex items-center gap-1">
+                MOHAMMED WAFEEQ KAZI<span class="text-accent text-xl">.</span>
+            </a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
+                <a href="#about" class="hover:text-accent transition-colors">About</a>
+                <a href="#technology" class="hover:text-accent transition-colors">Technology</a>
+                <a href="#github" class="hover:text-accent transition-colors">Projects</a>
+                <a href="#experience" class="hover:text-accent transition-colors">Experience</a>
+                <a href="#education" class="hover:text-accent transition-colors">Education</a>
+                <a href="#certificates" class="hover:text-accent transition-colors">Certificates</a>
+                <a href="#contact" class="hover:text-accent transition-colors">Contact</a>
+            </div>
+            <div class="flex items-center space-x-3">
+                <a href="https://www.linkedin.com/in/mohammed-wafeeq-mohammed-salim-kazi/" target="_blank" class="hidden sm:inline-flex px-3.5 py-2 text-xs font-semibold uppercase tracking-wider rounded-lg border border-gray-700 hover:border-accent hover:text-accent transition-all bg-gray-900">
+                    LinkedIn ↗
+                </a>
+                <a href="https://github.com/kaziwafeeq-afk" target="_blank" class="px-3.5 py-2 text-xs font-semibold uppercase tracking-wider rounded-lg border border-emerald-500/40 hover:border-accent text-accent hover:bg-emerald-950/30 transition-all bg-gray-900">
+                    GitHub ↗
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="min-h-screen pt-32 pb-20 flex items-center relative overflow-hidden bg-darkBg">
+        <!-- Background Glow Effect -->
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-6 w-full relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-semibold bg-emerald-950/80 text-accent border border-emerald-500/30 shadow-sm shadow-emerald-950/50">
+                        ✨ M.Sc. Robotic Systems Engineering · RWTH Aachen
+                    </div>
+                    <h1 class="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight">
+                        Mohammed Wafeeq<br>
+                        <span class="text-accent drop-shadow-[0_0_25px_rgba(16,185,129,0.3)]">Kazi</span>
+                    </h1>
+                    
+                    <p class="text-gray-400 text-base sm:text-lg max-w-2xl leading-relaxed">
+                        M.Sc. Robotic Systems Engineering student at RWTH Aachen University with a Bachelor's in Mechanical Engineering (Honours in Smart Manufacturing) from VJTI Mumbai. Passionate about robotic kinematics, multi-body dynamics, control systems, and Computer Aided Design.
+                    </p>
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="#contact" class="px-6 py-3.5 text-sm font-semibold rounded-xl bg-accent text-black hover:bg-accentHover transition-all shadow-lg shadow-emerald-900/40 hover:scale-[1.02]">
+                            Get in Touch ↗
+                        </a>
+                        <a href="#github" class="px-6 py-3.5 text-sm font-semibold rounded-xl bg-cardBg border border-emerald-500/40 text-white hover:border-accent hover:bg-gray-800 transition-all hover:scale-[1.02]">
+                            Explore Projects ↓
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohammed-wafeeq-mohammed-salim-kazi/" target="_blank" class="px-6 py-3.5 text-sm font-semibold rounded-xl bg-cardBg border border-gray-800 text-white hover:border-accent hover:bg-gray-800 transition-all hover:scale-[1.02]">
+                            LinkedIn Profile ↗
+                        </a>
+                        <a href="https://github.com/kaziwafeeq-afk" target="_blank" class="px-6 py-3.5 text-sm font-semibold rounded-xl bg-cardBg border border-gray-800 text-white hover:border-accent hover:bg-gray-800 transition-all hover:scale-[1.02]">
+                            GitHub Profile ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Upgraded Right-Side Industrial Robotic Arm Image Card -->
+                <div class="lg:col-span-5">
+                    <div class="relative rounded-3xl overflow-hidden border border-emerald-500/30 bg-cardBg p-2.5 shadow-2xl shadow-emerald-950/30 group">
+                        <div class="rounded-2xl overflow-hidden aspect-[4/3] bg-gray-950 relative">
+                            <img src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=900&q=80" alt="Advanced Multi-Axis Robotic Arm Manufacturing" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90">
+                            <div class="absolute inset-0 bg-gradient-to-t from-darkBg/80 via-transparent to-transparent"></div>
+                        </div>
+                        <div class="p-4 flex items-center justify-between text-xs text-gray-300 border-t border-gray-800/80 bg-cardBg">
+                            <span class="font-medium text-white">RWTH Aachen University</span>
+                            <span class="text-accent font-bold">M.Sc. Robotics · 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-24 border-t border-gray-800/60 bg-gray-900/20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="text-xs font-bold tracking-widest text-accent uppercase">01 — ABOUT</div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                        Rigorous engineering &amp;<br>robotic design.
+                    </h2>
+                </div>
+                <div class="lg:col-span-7 space-y-8">
+                    <div class="text-gray-300 text-base sm:text-lg space-y-6 leading-relaxed">
+                        <p>
+                            I am <strong class="text-white">Mohammed Wafeeq Kazi</strong>, pursuing my M.Sc. in <strong class="text-accent">Robotic Systems Engineering</strong> at <strong class="text-white">RWTH Aachen University</strong>. I completed my Bachelor of Technology in <strong class="text-accent">Mechanical Engineering</strong> with Honours in Smart Manufacturing at <strong class="text-white">Veermata Jijabai Technological Institute (VJTI), Mumbai</strong>.
+                        </p>
+                        <p>
+                            My technical core focuses on advanced robotic kinematics, multi-body dynamics, motion planning, linear control systems, and python-driven engineering software tools.
+                        </p>
+                        <p>
+                            Additionally, I bring hands-on expertise in thermal-fluid simulations (ANSYS Fluent CFD), parametric CAD modeling (SolidWorks, Fusion 360, AutoCAD), hydraulic profiling calculations (MATLAB), and engineering scheduling via Oracle Primavera P6.
+                        </p>
+                    </div>
+
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
+                        <div class="p-4 rounded-xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10">
+                            <small class="block text-gray-400 text-xs mb-1">Focus</small>
+                            <strong class="text-accent text-sm font-bold">Robotics</strong>
+                        </div>
+                        <div class="p-4 rounded-xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10">
+                            <small class="block text-gray-400 text-xs mb-1">University</small>
+                            <strong class="text-accent text-sm font-bold">RWTH Aachen</strong>
+                        </div>
+                        <div class="p-4 rounded-xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10">
+                            <small class="block text-gray-400 text-xs mb-1">Undergrad</small>
+                            <strong class="text-accent text-sm font-bold">VJTI Mumbai</strong>
+                        </div>
+                        <div class="p-4 rounded-xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10">
+                            <small class="block text-gray-400 text-xs mb-1">Location</small>
+                            <strong class="text-accent text-sm font-bold">Aachen, Germany</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECHNOLOGY SECTION -->
+    <section id="technology" class="py-24 border-t border-gray-800/60">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="text-xs font-bold tracking-widest text-accent uppercase">02 — TECHNOLOGY</div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                        Technical stack &amp;<br>competencies.
+                    </h2>
+                </div>
+            </div>
+
+            <div class="space-y-12">
+                <!-- Software Tags (All Green Styled with Icons) -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-lg shadow-emerald-950/20 space-y-4">
+                    <h3 class="text-lg font-bold text-white">Programming &amp; Software Tools</h3>
+                    <div class="flex flex-wrap gap-2.5">
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">⚡ Python</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">⚡ C++</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">⚡ MATLAB</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">📐 SolidWorks</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">📐 Fusion 360</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">📐 AutoCAD</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">🔬 ANSYS Fluent</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">🖨️ MeshMixer</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">🤖 RoboAnalyzer</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">📊 Oracle Primavera P6</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">💻 JupyterLab</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">🐙 Git &amp; GitHub</span>
+                        <span class="px-3 py-1.5 rounded-lg bg-gray-900 border border-emerald-500/50 text-sm text-emerald-400 font-medium inline-flex items-center gap-1.5">🌐 HTML / CSS</span>
+                    </div>
+                </div>
+
+                <!-- Core Engineering Disciplines Grid (Green Headings) -->
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-6">Core Engineering Disciplines</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="p-6 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 space-y-2">
+                            <strong class="block text-accent text-base font-bold">Kinematics &amp; Motion Planning</strong>
+                            <span class="text-xs text-gray-400 leading-relaxed block">Denavit-Hartenberg parameters, Jacobian matrices, kinematic singularities, and path-tracking algorithms.</span>
+                        </div>
+                        <div class="p-6 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 space-y-2">
+                            <strong class="block text-accent text-base font-bold">Control Systems &amp; Dynamics</strong>
+                            <span class="text-xs text-gray-400 leading-relaxed block">Linear time-invariant systems, Bode/Nyquist stability criteria, state-space representations, and multi-body dynamics.</span>
+                        </div>
+                        <div class="p-6 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 space-y-2">
+                            <strong class="block text-accent text-base font-bold">CAD &amp; Mechanical Design</strong>
+                            <span class="text-xs text-gray-400 leading-relaxed block">Parametric modeling, assembly design, topological optimization, and structural FEA using SolidWorks, Fusion 360, and AutoCAD.</span>
+                        </div>
+                        <div class="p-6 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 space-y-2">
+                            <strong class="block text-accent text-base font-bold">Production Metrology &amp; Smart Mfg</strong>
+                            <span class="text-xs text-gray-400 leading-relaxed block">Precision measurement, geometric dimensioning and tolerancing (GD&amp;T), and advanced manufacturing plant automation principles.</span>
+                        </div>
+                        <div class="p-6 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 space-y-2">
+                            <strong class="block text-accent text-base font-bold">CFD &amp; Thermal Optimization</strong>
+                            <span class="text-xs text-gray-400 leading-relaxed block">ANSYS Fluent thermal simulations, surrogate modeling with neural networks, and genetic algorithm optimization.</span>
+                        </div>
+                        <div class="p-6 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 space-y-2">
+                            <strong class="block text-accent text-base font-bold">Project Management &amp; Profiling</strong>
+                            <span class="text-xs text-gray-400 leading-relaxed block">Hydraulic calculations via MATLAB scripts and scheduling and tracking via Oracle Primavera P6.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="github" class="py-24 border-t border-gray-800/60 bg-gray-900/20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="text-xs font-bold tracking-widest text-accent uppercase">03 — PROJECTS</div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                        Selected academic &amp;<br>engineering projects.
+                    </h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <article class="p-8 rounded-2xl bg-cardBg border border-cardBorder flex flex-col justify-between space-y-6 hover:border-gray-700 transition-all">
+                    <div class="space-y-4">
+                        <div class="text-xs font-semibold text-accent">PROJECT 01</div>
+                        <h3 class="text-xl font-bold text-white">Mars Rover Weight Optimization (FEA)</h3>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            Honours mini project focused on topology optimization, FEA structural analysis, and material selection for a Mars rover chassis, suspension, and robotic arm (VJTI).
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">Topology Optimization</span>
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">FEA Analysis</span>
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">SolidWorks</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/kaziwafeeq-afk/mars-rover-weight-optimization-fea" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                        View Repository (GitHub) ↗
+                    </a>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="p-8 rounded-2xl bg-cardBg border border-cardBorder flex flex-col justify-between space-y-6 hover:border-gray-700 transition-all">
+                    <div class="space-y-4">
+                        <div class="text-xs font-semibold text-accent">PROJECT 02</div>
+                        <h3 class="text-xl font-bold text-white">ISRO Robotics Challenge Rover</h3>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            Design and test report, structural FEA analysis, and ROS architecture for Team Vishwa's Mars Rover (IROC-U / ISRO Robotics Challenge).
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">ROS</span>
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">FEA Analysis</span>
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">System Design</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/kaziwafeeq-afk/isro-robotics-challenge-rover" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                        View Repository (GitHub) ↗
+                    </a>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="p-8 rounded-2xl bg-cardBg border border-cardBorder flex flex-col justify-between space-y-6 hover:border-gray-700 transition-all">
+                    <div class="space-y-4">
+                        <div class="text-xs font-semibold text-accent">PROJECT 03</div>
+                        <h3 class="text-xl font-bold text-white">Bicycle Chassis CAD &amp; FEA Analysis</h3>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            CAD and Static structural FEA and design optimization of a bicycle chassis using Solidworks and HyperMesh respectively.
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">SolidWorks</span>
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">HyperMesh</span>
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">FEA</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/kaziwafeeq-afk/bicycle-chassis-CAD-FEA-analysis" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                        View Repository (GitHub) ↗
+                    </a>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="p-8 rounded-2xl bg-cardBg border border-cardBorder flex flex-col justify-between space-y-6 hover:border-gray-700 transition-all">
+                    <div class="space-y-4">
+                        <div class="text-xs font-semibold text-accent">PROJECT 04</div>
+                        <h3 class="text-xl font-bold text-white">Bevel Gear Design Automation</h3>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            Python-based automated design, stress analysis, and safety verification tool for bevel gear systems.
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">Python</span>
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">Stress Analysis</span>
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">Automation</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/kaziwafeeq-afk/bevel-gear-design-automation" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                        View Repository (GitHub) ↗
+                    </a>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="p-8 rounded-2xl bg-cardBg border border-cardBorder flex flex-col justify-between space-y-6 hover:border-gray-700 transition-all md:col-span-2 lg:col-span-1">
+                    <div class="space-y-4">
+                        <div class="text-xs font-semibold text-accent">PROJECT 05</div>
+                        <h3 class="text-xl font-bold text-white">Sugarcane Juicer Machine Design</h3>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            Complete mechanical design, ANSYS static structural analysis, and MATLAB calculations for a conventional sugarcane juicer machine.
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">ANSYS</span>
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">MATLAB</span>
+                            <span class="px-2.5 py-1 rounded-md bg-gray-800 text-xs text-gray-300">Mechanical Design</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/kaziwafeeq-afk/sugarcane-juicer-machine-design" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                        View Repository (GitHub) ↗
+                    </a>
+                </article>
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="https://github.com/kaziwafeeq-afk?tab=repositories" target="_blank" class="inline-flex items-center px-6 py-3 rounded-xl bg-cardBg border border-cardBorder text-sm font-semibold text-white hover:border-accent transition-all">
+                    View All Repositories on GitHub ↗
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE & PROJECTS SECTION -->
+    <section id="experience" class="py-24 border-t border-gray-800/60">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="text-xs font-bold tracking-widest text-accent uppercase">04 — EXPERIENCE &amp; PROJECTS</div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                        Professional experience &amp; engineering projects.
+                    </h2>
+                </div>
+            </div>
+
+            <div class="space-y-8 max-w-4xl">
+                <!-- Box 1: Washnah Contracting Internship -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-cardBorder grid grid-cols-1 md:grid-cols-12 gap-6">
+                    <div class="md:col-span-4 space-y-2">
+                        <div class="text-xs font-semibold text-accent uppercase tracking-wider">Engineering Internship</div>
+                        <div class="text-xs font-medium text-gray-400">June 2024 — August 2024</div>
+                        <div class="text-xs text-gray-400">Jeddah, Saudi Arabia</div>
+                    </div>
+                    <div class="md:col-span-8 space-y-3">
+                        <h3 class="text-xl font-bold text-white">Washnah Contracting</h3>
+                        <p class="text-sm text-gray-400">Hydraulic Profiling &amp; Project Scheduling Engineer</p>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            Conducted detailed hydraulic profiling calculations utilizing custom MATLAB scripts and managed complex engineering project tracking and schedules using Oracle Primavera P6.
+                        </p>
+                        <div class="pt-2">
+                            <a href="https://github.com/kaziwafeeq-afk/washnah-contracting-internship-report" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                                View Repository (GitHub) ↗
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 2: Heat Sink Parametric Optimization -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-cardBorder grid grid-cols-1 md:grid-cols-12 gap-6">
+                    <div class="md:col-span-4 space-y-2">
+                        <div class="text-xs font-semibold text-accent uppercase tracking-wider">B.Tech Project</div>
+                        <div class="text-xs font-medium text-gray-400">2024 — 2025</div>
+                        <div class="text-xs text-gray-400">Mumbai, India</div>
+                    </div>
+                    <div class="md:col-span-8 space-y-3">
+                        <h3 class="text-xl font-bold text-white">Heat Sink Parametric Optimization</h3>
+                        <p class="text-sm text-gray-400">Undergraduate Research Project</p>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            Conducted parametric thermal optimization of heat sinks using ANSYS Fluent for CFD flow analysis, built neural network surrogate models, and optimized thermal performance using Genetic Algorithms alongside co-authors under faculty advisement.
+                        </p>
+                        <div class="pt-2">
+                            <a href="https://github.com/kaziwafeeq-afk/heat-sink-parametric-optimization" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                                View Repository (GitHub) ↗
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 3: Rover Vishwa VJTI / Vyom Mars Rover -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-cardBorder grid grid-cols-1 md:grid-cols-12 gap-6">
+                    <div class="md:col-span-4 space-y-2">
+                        <div class="text-xs font-semibold text-accent uppercase tracking-wider">Robotics Competition</div>
+                        <div class="text-xs font-medium text-gray-400">2023 — 2024</div>
+                        <div class="text-xs text-gray-400">Mumbai, India</div>
+                    </div>
+                    <div class="md:col-span-8 space-y-3">
+                        <h3 class="text-xl font-bold text-white">Rover Vishwa VJTI — Vyom Mars Rover (IRC)</h3>
+                        <p class="text-sm text-gray-400">Team Contributor &amp; Systems Developer</p>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            Contributed to the development and mechanical/systems engineering for the Mars Rover project participating in the International Rover Challenge (IRC) and national robotics competitions.
+                        </p>
+                        <div class="pt-2">
+                            <a href="https://github.com/kaziwafeeq-afk/vyom-mars-rover-irc" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                                View Repository (GitHub) ↗
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- EDUCATION SECTION -->
+    <section id="education" class="py-24 border-t border-gray-800/60 bg-gray-900/20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="text-xs font-bold tracking-widest text-accent uppercase">05 — EDUCATION</div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                        Academic<br>background.
+                    </h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- RWTH Aachen -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-cardBorder space-y-4 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="text-xs font-semibold text-accent">2025 — PRESENT</div>
+                        <h3 class="text-xl font-bold text-white">M.Sc. Robotic Systems Engineering</h3>
+                        <p class="text-sm text-gray-300 font-medium">RWTH Aachen University · Aachen, Germany</p>
+                        <p class="text-xs text-accent font-semibold">Current Grade: 2.0 </p>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Coursework includes Advanced Robotic Kinematics and Dynamics, Linear Control Systems, Robotic Systems, Mechatronics and Control for Production Plants, Multi-Body Dynamics, and Ethics of AI.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-800/60">
+                        <a href="https://drive.google.com/file/d/1x9wMhbu2onE5LsEOTdEUlA5Bb4F12okj/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            View Transcript ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- VJTI Mumbai -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-cardBorder space-y-4 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="text-xs font-semibold text-accent">2021 — 2025</div>
+                        <h3 class="text-xl font-bold text-white">B.Tech. Mechanical Engineering (Honours in Smart Manufacturing)</h3>
+                        <p class="text-sm text-gray-300 font-medium">VJTI · Mumbai, Maharashtra, India</p>
+                        <p class="text-xs text-accent font-semibold">CGPA: 7.59 / 10 | German Grade: 2.2</p>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Completed undergraduate studies with Honours in Smart Manufacturing, focusing on mechanical design, numerical control programming, production metrology, and CFD simulations.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-800/60 flex flex-wrap gap-4">
+                        <a href="https://drive.google.com/file/d/1LexTyJr39cLNtE8-xOgmRDL9uOplWuso/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            View Degree ↗
+                        </a>
+                        <a href="https://drive.google.com/file/d/1SsM6ZRTx_j2bsliengw8ok63KmxPTFmc/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            View Transcript ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- International Indian School -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-cardBorder space-y-4 flex flex-col justify-between">
+                    <div class="space-y-4">
+                        <div class="text-xs font-semibold text-accent">2007 — 2021</div>
+                        <h3 class="text-xl font-bold text-white">Secondary &amp; Higher School Certificate</h3>
+                        <p class="text-sm text-gray-300 font-medium">International Indian School · Jeddah, Saudi Arabia</p>
+                        <div class="space-y-1 pt-1">
+                            <p class="text-xs text-accent font-semibold">Higher School Certificate: 96.4%</p>
+                            <p class="text-xs text-accent font-semibold">Secondary School Certificate: 93.8%</p>
+                        </div>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Completed foundational school education with top academic honors in science and mathematics.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-800/60 flex flex-wrap gap-4">
+                        <a href="https://drive.google.com/file/d/1fWLdpBCKLNrnJwdXmg47N3rNGSQhjR3v/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            12th Marksheet ↗
+                        </a>
+                        <a href="https://drive.google.com/file/d/1Dtdq_jUn21_TmL-oahgd4R3ItMyzR-Qw/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            10th Marksheet ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- CERTIFICATES & ACHIEVEMENTS SECTION -->
+    <section id="certificates" class="py-24 border-t border-gray-800/60">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-16">
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="text-xs font-bold tracking-widest text-accent uppercase">06 — CERTIFICATES &amp; ACHIEVEMENTS</div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                        Certifications &amp;<br>achievements.
+                    </h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Item 1: Guinness World Record -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 flex flex-col justify-between space-y-6">
+                    <div class="space-y-3">
+                        <div class="text-xs font-semibold text-accent uppercase tracking-wider">Official Record</div>
+                        <h3 class="text-xl font-bold text-white">Guinness World Record</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Official participant in achieving the Guinness World Record for the largest picture mosaic formed by people (4,500 participants with Abeer Medical Group in Jeddah, Saudi Arabia).
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-800/60">
+                        <a href="https://drive.google.com/file/d/1mA5_tUiWv4eGSBxZUbFkm4jTWwCIyd6r/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            View Certificate (Drive) ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 2: GRE General Test -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 flex flex-col justify-between space-y-6">
+                    <div class="space-y-3">
+                        <div class="text-xs font-semibold text-accent uppercase tracking-wider">Standardized Test</div>
+                        <h3 class="text-xl font-bold text-white">GRE General Test Score Report</h3>
+                        <div class="space-y-1 pt-1">
+                            <p class="text-xs text-gray-300">Quantitative: 167 / 170 </p>
+                            <p class="text-xs text-gray-300">Verbal: 145 / 170 </p>
+                            <p class="text-xs text-gray-300">Analytical Writing: 3.0 / 6.0</p>
+                        </div>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Official ETS score report taken in August 2024.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-800/60">
+                        <a href="https://drive.google.com/file/d/1qveUk6HZTrPX54Vm39tTru5M8KqNAvZS/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            View Score Report (Drive) ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 3: IELTS Academic -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 flex flex-col justify-between space-y-6">
+                    <div class="space-y-3">
+                        <div class="text-xs font-semibold text-accent uppercase tracking-wider">Language Proficiency</div>
+                        <h3 class="text-xl font-bold text-white">IELTS Academic Result</h3>
+                        <div class="space-y-1 pt-1">
+                            <p class="text-xs text-accent font-semibold">Overall Band Score: 7.0 (C1 Level)</p>
+                            <p class="text-xs text-gray-300">Listening: 7.5 | Reading: 7.5 | Writing: 7.0 | Speaking: 6.5</p>
+                        </div>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Certified English proficiency issued by British Council / IDP IELTS.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-800/60">
+                        <a href="https://drive.google.com/file/d/1qVcrMRoVRrdXxfhGRw5YtreKqw2r5n1U/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            View Certificate (Drive) ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 4: RWTH German Course A1.1 -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 flex flex-col justify-between space-y-6">
+                    <div class="space-y-3">
+                        <div class="text-xs font-semibold text-accent uppercase tracking-wider">Language Training</div>
+                        <h3 class="text-xl font-bold text-white">RWTH German Course A1.1.c</h3>
+                        <div class="space-y-1 pt-1">
+                            <p class="text-xs text-accent font-semibold">Grade: 2.3 (Good)</p>
+                            <p class="text-xs text-gray-300">Sprachenzentrum, RWTH Aachen University</p>
+                        </div>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Completed face-to-face German language training comprising 4 contact hours per week during Winter Semester 2025/26.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-800/60">
+                        <a href="https://drive.google.com/file/d/1gtfBvFkT3A7RYV8XBZ1RO63vQuJiAzrM/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            View Certificate (Drive) ↗
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Item 5: Energy Literacy Training -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 flex flex-col justify-between space-y-6 md:col-span-2 lg:col-span-1">
+                    <div class="space-y-3">
+                        <div class="text-xs font-semibold text-accent uppercase tracking-wider">Specialized Training</div>
+                        <h3 class="text-xl font-bold text-white">Certificate of Energy Literacy</h3>
+                        <p class="text-xs text-gray-300">Energy Swaraj Foundation</p>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Successfully completed training across 12 modules covering energy generation, consumption, carbon footprint minimization, and alternative solar solutions.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-800/60">
+                        <a href="https://drive.google.com/file/d/1Fx_0hFxaBHovH-Ykr1JsLmqdU9gQuWEA/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            View Certificate (Drive) ↗
+                        </a>
+                    </div>
+                </div>
+                <!-- Item 6: International Rover Challenge 2024 -->
+                <div class="p-8 rounded-2xl bg-cardBg border border-emerald-500/30 shadow-md shadow-emerald-950/10 flex flex-col justify-between space-y-6">
+                    <div class="space-y-3">
+                        <div class="text-xs font-semibold text-accent uppercase tracking-wider">Robotics Competition</div>
+                        <h3 class="text-xl font-bold text-white">International Rover Challenge 2024</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Certificate of Participation presented to Team Vishwa for competing in the International Rover Challenge (IRC) organized by SPROS at PSG iTech, Coimbatore, India.
+                        </p>
+                    </div>
+                    <div class="pt-4 border-t border-gray-800/60">
+                        <a href="https://drive.google.com/file/d/1mAFCLh7mGf_AZ7Z1FwsFq21pfoEkrnbK/view?usp=drivesdk" target="_blank" class="inline-flex items-center text-xs font-bold text-accent hover:text-emerald-400 transition-colors">
+                            View Certificate (Drive) ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- CONTACT SECTION -->
+    <section id="contact" class="py-24 border-t border-gray-800/60">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="text-xs font-bold tracking-widest text-accent uppercase">07 — CONTACT</div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+                        Let's connect.
+                    </h2>
+                </div>
+                <div class="lg:col-span-7 space-y-8">
+                    <p class="text-gray-300 text-base sm:text-lg leading-relaxed">
+                        I am actively looking for student assistant (HiWi), working student (Werkstudent), and internship opportunities in robotics engineering, motion planning, control systems, automation, and CAD design.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <a href="mailto:mohammed.wafeeq.kazi@rwth-aachen.de" class="p-6 rounded-xl bg-cardBg border border-cardBorder flex items-center justify-between hover:border-accent transition-all group">
+                            <div>
+                                <small class="block text-gray-400 text-xs mb-1">Direct Email (RWTH)</small>
+                                <strong class="text-white text-sm group-hover:text-accent transition-colors">mohammed.wafeeq.kazi@rwth-aachen.de ↗</strong>
+                            </div>
+                            <span class="text-accent text-lg">↗</span>
+                        </a>
+                        <a href="mailto:kaziwafeeq@gmail.com" class="p-6 rounded-xl bg-cardBg border border-cardBorder flex items-center justify-between hover:border-accent transition-all group">
+                            <div>
+                                <small class="block text-gray-400 text-xs mb-1">Personal Email</small>
+                                <strong class="text-white text-sm group-hover:text-accent transition-colors">kaziwafeeq@gmail.com ↗</strong>
+                            </div>
+                            <span class="text-accent text-lg">↗</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohammed-wafeeq-mohammed-salim-kazi/" target="_blank" class="p-6 rounded-xl bg-cardBg border border-cardBorder flex items-center justify-between hover:border-accent transition-all group">
+                            <div>
+                                <small class="block text-gray-400 text-xs mb-1">Professional Network</small>
+                                <strong class="text-white text-sm group-hover:text-accent transition-colors">LinkedIn Profile ↗</strong>
+                            </div>
+                            <span class="text-accent text-lg">↗</span>
+                        </a>
+                        <a href="https://github.com/kaziwafeeq-afk" target="_blank" class="p-6 rounded-xl bg-cardBg border border-cardBorder flex items-center justify-between hover:border-accent transition-all group">
+                            <div>
+                                <small class="block text-gray-400 text-xs mb-1">Source Code</small>
+                                <strong class="text-white text-sm group-hover:text-accent transition-colors">GitHub Profile ↗</strong>
+                            </div>
+                            <span class="text-accent text-lg">↗</span>
+                        </a>
+                        <a href="https://drive.google.com/file/d/15x-QbXEiSJGAal7nN99MYRbESePUpBkS/view?usp=drivesdk" target="_blank" class="p-6 rounded-xl bg-cardBg border border-cardBorder flex items-center justify-between hover:border-accent transition-all group sm:col-span-2">
+                            <div>
+                                <small class="block text-gray-400 text-xs mb-1">Curriculum Vitae</small>
+                                <strong class="text-white text-sm group-hover:text-accent transition-colors">View Resume Folder (Google Drive) ↗</strong>
+                            </div>
+                            <span class="text-accent text-lg">↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 border-t border-gray-800/60 bg-darkBg text-xs text-gray-400">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <span>© 2026 Mohammed Wafeeq Mohammed Salim Kazi</span>
+            <span>Mechanical Engineer | Robotics Systems Engineer</span>
+        </div>
+    </footer>
+
+</body>
+</html>
